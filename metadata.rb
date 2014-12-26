@@ -11,7 +11,7 @@ version          '0.1.1'
   supports os
 end
 
-%w(build-essential runit git ant python docker).each do |ckbk|
+%w(build-essential runit git python docker).each do |ckbk|
   depends ckbk
 end
 
